@@ -1,13 +1,13 @@
 {
-  "name": "erc20-snapshot",
-  "version": "1.0.2",
-  "description": "ERC20 Token Snapshot",
+  "name": "kek-erc20-snapshot",
+  "version": "1.0.0",
+  "description": "KEK ERC20 Token Snapshot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "erc20-snapshot": "index.js"
+    "kek-erc20-snapshot": "index.js"
   },
   "keywords": [
     "ethereum",
@@ -15,12 +15,12 @@
     "token",
     "snapshot"
   ],
-  "author": "Binod Nirvan",
-  "license": "Apache-2.0",
-  "homepage": "https://github.com/binodnp/erc20-snapshot",
+  "author": "Interchained",
+  "license": "MIT",
+  "homepage": "https://github.com/lol-chain/kek-erc20-snapshot",
   "repository": {
     "type": "git",
-    "url": "https://github.com/binodnp/erc20-snapshot"
+    "url": "https://github.com/lol-chain/kek-erc20-snapshot"
   },
   "dependencies": {
     "csv-writer": "^1.3.0",
