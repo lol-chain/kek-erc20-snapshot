@@ -4,7 +4,6 @@ const fs = require('fs');
 
 let rawdata = fs.readFileSync('balances/KEK.json');
 let holders = JSON.parse(rawdata);
-// console.log(holders);
 for(var i = 0; i < holders.length; i++)
 {
     var wallets = holders[i].wallet;
