@@ -1,36 +1,32 @@
-# Token Snapshot: Create ERC20 Token Snapshot
+# KEK ERC20 Token Snapshot: Generate ERC20 Token Snapshots
 
 This command-line utility creates a snapshot of any ERC20 token in JSON or CSV format. Use your own fully synced Ethereum node or any _Ethereum node as a service_ like Infura.
 
-- Works without a local Ethereum node.
+- Works with or without a local Kekchain node.
+- Compatible with Infura frens
 - Automatically resumes the next time upon failure.
 - Tested to work with Infura.
 
 ## Getting Started
 
 ```
-npm install erc20-snapshot -g
+git clone https://github.com/billaure-crystaleum/kek-erc20-snapshot
 ```
 
 ### CLI Arguments
 
 None. Prompts for user input and produces a configuration file on the first run.
 
-### How to Use Token Snapshot?
-
-Navigate to a directory where you'd like to save the token snapshot to.
-
-```
-cd path/to/a/directory
-```
+### How to Use KEK ERC20 Token Snapshot?
 
 Run the program:
 
 ```
-erc20-snapshot
+node index.js
 ```
 
 ## Configuration File / Prompt Parameters
+### snapshot.config.js
 
 ```json
 {
@@ -73,12 +69,4 @@ The delay (in ms) between each request in the loop. Tweak this if you are experi
 
 ### checkIfContract
 
-Checks each address to determine whether it is a smart contract or an Ethereum wallet.
-
-## You May Also Like
-
-- [Vyper ERC20 Contracts](https://github.com/binodnp/vyper-erc20)
-- [Vyper Crowdsale Contracts](https://github.com/binodnp/vyper-crowdsale)
-- [Solidoc: Solidity Documentation Generator](https://github.com/CYBRToken/solidoc)
-- [SolFlattener: Solidity Flattener](https://github.com/CYBRToken/sol-flattener)
-- [Vesting Schedule](https://github.com/binodnp/vesting-schedule)
+Checks each address to determine whether it is a smart contract or an Kekchain wallet.
